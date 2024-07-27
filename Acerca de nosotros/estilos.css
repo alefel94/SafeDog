@@ -1,0 +1,90 @@
+/* Variables para modificar */
+
+:root {
+    /* Colores */
+    
+    /* Color de fondo */
+        --bg-color: #FFF8E0;
+    /* Colores primarios */
+        --color-primary: hsl(82, 38%, 53%);
+        --color-secondary: #7F636E;
+        --color-terciary: #dfab00;
+    
+    /* Letra */
+    
+    /* Color de letra */
+        --font-color-w: white;
+        --font-color-b: black;
+    /* Tipo de letra */
+        --font-primary-title: Tahoma, sans-serif;
+        --font-secondary-p: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Tamaño de letra */
+        --font-size-primary: 2.1rem;
+        --font-size-secondary: 1.5 rem;
+    
+    
+    }
+    
+    body{
+        /* Mando a llamar la variable correspondiente al color guardado */
+        background-color:var(--bg-color);
+        color:var(--font-color);
+        font-family: var(--font-primary)
+    }
+    
+    
+    h1 {
+        color:var(--font-color-w); 
+        font-family:var(--font-primary-title);
+        font-size: var(--font-size-primary);
+        }
+    
+    /*Agregar fuentes externas*/
+    
+    h2 {
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+        font-size: 30px;
+    }
+    
+    /*Cambiar las propiedades de las viñetas y listas*/
+    
+    /* */
+    
+    li, a {
+        color: #7F636E;
+        background-color: azure;
+    }
+    
+    /* Clases (.) y Id (#) */
+    .navbar {
+        background-color: var(--color-secondary);
+        color: var(--font-color-b);
+        font-family: var(--font-secondary);
+    }
+    .footer {
+        background-color: var(--color-secondary);
+        color: var(--font-color-b);
+        font-family: var(--font-secondary);
+    }
+    
+    .main {
+        background-color:rgb(73, 52, 23);
+    }
+    
+    
+    .button {
+        color: var(--font-color-w);
+        background-color: var(--color-terciary);
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    img {
+        border-color: #FFFFFF;
+        border-image-width: 10px;
+    }
+
+    #lectura {
+        align-items: left;
+    }
